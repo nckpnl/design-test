@@ -39,23 +39,7 @@ def play_sound_C(volume):
         subprocess.run(['mpg321', '-g', str(volume), '/home/admin/Desktop/HColocation/beep-C/2beep.mp3'])
     else:
         subprocess.run(['mpg321', '-g', str(volume), '/home/admin/Desktop/HColocation/beep-C/1beep.mp3'])
-"""     
-def play_sound_L(volume):
-    if volume > 70:
-        subprocess.run(['mpg321', '-g', str(volume), '/home/admin/Desktop/HColocation/beep-L/3beep-L.mp3'])
-    elif volume > 45:
-        subprocess.run(['mpg321', '-g', str(volume), '/home/admin/Desktop/HColocation/beep-L/2beep-L.mp3'])
-    else:
-        subprocess.run(['mpg321', '-g', str(volume), '/home/admin/Desktop/HColocation/beep-L/1beep-L.mp3'])
-        
-def play_sound_R(volume):
-    if volume > 70:
-        subprocess.run(['mpg321', '-g', str(volume), '/home/admin/Desktop/HColocation/beep-R/3beep-R.mp3'])
-    elif volume > 45:
-        subprocess.run(['mpg321', '-g', str(volume), '/home/admin/Desktop/HColocation/beep-R/2beep-R.mp3'])
-    else:
-        subprocess.run(['mpg321', '-g', str(volume), '/home/admin/Desktop/HColocation/beep-R/1beep-R.mp3'])
-"""
+
 
 # Main loop
 while True:
